@@ -41,7 +41,7 @@ function Index(): JSX.Element {
           a el framework de NextJS, siendo este mi proyecto para obtar el titulo unversitario.
         </p>
         <p>
-          En agosto de 2022 empiezo a trabajar en: <a target="_blank" rel="noreferrer" href="https://binauraldev.com/">Binaural</a> como desarrollador backend, con conocimientos en 0% en python y Odoo, sin embargo pude adaptarme muy bien corto tiempo.
+          En agosto de 2022 empiezo a trabajar en: <a target="_blank" rel="noreferrer" href="https://binauraldev.com/">Binaural</a> como desarrollador backend, con conocimientos en 0% de python y Odoo, sin embargo pude adaptarme muy bien corto tiempo.
           Aqui comence a realizar modificaciones a modulos de Odoo v14 y v15, y no es hasta
           hasta septiembre que se me asigna el proyecto Point of Sale (POS o Punto de Venta).
           Debido a los requerimientos de este proyecto pudo adquirir conocimientos en Odoo Owl

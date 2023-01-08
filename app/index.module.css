@@ -51,3 +51,13 @@
 .date{
   color: #212121AA;
 }
+
+@media (max-width: 768px){
+  .post, .post2{
+    grid-template-columns: 1fr;
+  }
+
+  .photo{
+    height: 250px;
+  }
+}
