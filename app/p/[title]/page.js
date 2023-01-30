@@ -1,7 +1,7 @@
 import style from "../content.module.css"
 import Code from "../../../components/Code"
 
-function Page({params}): JSX.Element {
+function Page({ params }) {
   console.log(params.title)
   return <>
     <div className={style.info}>
