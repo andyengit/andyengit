@@ -1,0 +1,32 @@
+.container{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.return{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+}
+
+.option{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5rem 2rem;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 80vw;
+  height: 4.7rem;
+  border: 1px solid #21212133;
+}
+
+.option h4{
+  font-weight: 500;
+  font-size: 1.5rem;
+}

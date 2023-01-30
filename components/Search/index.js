@@ -22,17 +22,17 @@ function SearchComponent({ title }) {
   }
 
   return <div>
+    {inputRef.current && inputRef.current.value &&
+      <p>Busquedas para {inputRef.current.value}...</p>
+    }
     <div className={st.container}>
       <input
         type="text"
         className={st.input}
         ref={inputRef}
         onKeyUp={onSearch} />
-      <BiSearchAlt size="2rem" onClick={onSearch} />
+      <BiSearchAlt onClick={onSearch} />
     </div>
-    {inputRef.current && inputRef.current.value &&
-      <h4>Busquedas para {inputRef.current.value}...</h4>
-    }
   </div>
 }
 
