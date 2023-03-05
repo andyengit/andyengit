@@ -6,6 +6,16 @@
   flex-direction: column;
 }
 
+.noexist{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .return{
   position: absolute;
   top: 1rem;

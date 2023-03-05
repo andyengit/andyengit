@@ -1,5 +1,6 @@
 import style from "./content.module.css"
 import HeaderSearch from "../../components/HeaderSearch"
+import Link from "next/link"
 
 export default function RootLayout({
   children,
@@ -9,7 +10,9 @@ export default function RootLayout({
   return (
     <>
       <div className={style.header}>
-        <h3 className={style.name}>Andy A.</h3>
+        <Link href="/">
+          <h3 className={style.name}>Andy A.</h3>
+        </Link>
         <HeaderSearch />
       </div>
       <div className={style.container}>

@@ -44,3 +44,16 @@
   font-size: 1.3rem;
   color: #212121aa
 }
+
+@media (max-width: 768px) {
+  .text{
+    padding-left: 1rem;
+  }
+  .text span{
+    font-size: 1.5rem;
+  }
+  .text p{
+    font-size: 1rem;
+  }
+}
+
