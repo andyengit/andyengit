@@ -9,17 +9,17 @@ import { RxTransparencyGrid } from "react-icons/rx"
 function Search({ searchParams }: any): JSX.Element {
   console.log(searchParams)
 
-  const pages = routes.filter((el) =>
+  const getPages = () => {
+    return routes.filter((el) =>
     el.title
       .toLowerCase()
       .includes(searchParams['title']))
-
-
+  } 
 
   return <div className={style.container}>
     <div className={style.return}><Link href="/">Volver</Link></div>
     <SearchComponent title={searchParams['title']} />
-    {pages.length > 0 ? pages.map((route: any, key: any) => (
+    {getPages().length > 0 ? getPages().map((route: any, key: any) => (
       <Link className={style.option} key={key} href={`/p/${route.url}`}>
         <h4>{route.title}</h4>
         <p>{route.summary}</p>
