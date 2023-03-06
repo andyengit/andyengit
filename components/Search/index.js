@@ -17,7 +17,7 @@ function SearchComponent({ title }) {
     if (e.type !== 'keyup' || e.key !== 'Enter') {
       return
     }
-    router.push(`/search?title=${inputRef.current.value}`)
+    router.replace(`/search?title=${inputRef.current.value}`)
     console.log(e)
   }
 
